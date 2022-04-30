@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: #293227;
+        border-radius: 5px;
+        align-items: center;
+        color: white;
+    }
+    body header img {
+        max-width: 30%;
+        box-shadow: 1px 1px #888888;
+        margin: .5rem;
+    }
+    body {
+        max-width: 35em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
