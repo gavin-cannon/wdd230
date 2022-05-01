@@ -1,14 +1,14 @@
-@media only screen and (max-width: 28.5em) {
-    body {
-        max-width: 35em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    body main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 2fr 1fr);
-    }
+body {
+    max-width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 header {
@@ -30,4 +30,20 @@ footer {
 
 * {
     font-family: 'Rajdhani', sans-serif;
+}
+
+div {
+    background-color: #E7DCC6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div h3 {
+    background-color: #9C9E5D;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 95%;
 }

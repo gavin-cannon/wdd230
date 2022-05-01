@@ -8,10 +8,10 @@
         align-items: center;
         color: white;
     }
-}
-
-body {
-    max-width: 35em;
-    margin-left: auto;
-    margin-right: auto;
+    body main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bing {
+        grid-column: 2;
+    }
 }
