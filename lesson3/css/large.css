@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em) {
+    /*NAVIGATION CSS*/
+    body nav {
+        display: flex;
+        flex-direction: row;
+        background-color: #59A86A;
+    }
+    body nav div {
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    img {
+        max-width: 40em;
+    }
+}

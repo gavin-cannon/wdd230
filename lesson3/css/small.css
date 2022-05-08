@@ -1,0 +1,48 @@
+/*NAVIGATION CSS*/
+
+body nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #59A86A;
+    text-align: center;
+    padding: 10px;
+}
+
+body nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+body nav div {
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    max-width: 25em;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    background-color: #F4E9DF;
+    padding: 10px;
+}
+
+#logo {
+    min-width: 10%;
+}
+
+#coolors {
+    max-width: 30%;
+}
