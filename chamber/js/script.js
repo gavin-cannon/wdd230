@@ -8,6 +8,7 @@ x.onclick = toggleMenu;
 
 let date = new Date()
 let year = date.getFullYear()
+let day_number = date.getDate()
 
 document.querySelector("#copyright").innerHTML = "&copy;" + year;
 
@@ -15,6 +16,6 @@ document.querySelector("#lastUpdated").innerHTML = `Last Updated: ${document.las
 
 let name_of_days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-let full_date = name_of_days[date.getDay()] + ", " + (date.getMonth() + 1) + " " + date.getFullYear()
+let full_date = name_of_days[date.getDay()] + ", " + day_number + " " + (date.getMonth() + 1) + " " + date.getFullYear()
 
 document.querySelector("#todays_date").innerHTML = full_date;
