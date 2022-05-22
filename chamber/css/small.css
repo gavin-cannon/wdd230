@@ -3,7 +3,7 @@
 body nav {
     display: flex;
     flex-direction: column;
-    background-color: #59A86A;
+    background-color: #27313B;
     padding: 10px;
 }
 
@@ -26,7 +26,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: #F4E9DF;
     border-top: 1px solid rgba(0, 0, 0, 0.5)
 }
 
@@ -71,20 +71,24 @@ footer {
     text-align: center;
 }
 
-main {
-    background-color: #F4E9DF;
-    padding: 10px;
-}
-
 #logo {
     min-width: 10%;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #F4E9DF;
+    padding: 10px;
+    justify-content: center;
+}
+
+main div {
+    padding: 5px;
+}
+
+#heroImage {
+    max-width: 17em;
 }
 
 #youtube {
@@ -106,5 +110,82 @@ h1 {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    background-color: #27313B;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #F4E9DF;
+}
+
+footer img {
+    max-width: 5em;
+    border-radius: 95px;
+    padding: 2px;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:visited {
+    color: #E89700;
+}
+
+a:hover {
+    color: #59A86A;
+}
+
+#event {
+    background-color: #2C4E37;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#weather {
+    background-color: #2C4E37;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#news_release {
+    background-color: #2C4E37;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#spotlight_section {
+    background-color: #2C4E37;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+main div button {
+    background-color: #27313B;
+    border-radius: 8px;
+}
+
+#join {
+    background-color: #2C4E37;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 3px;
+}
+
+#sunImage {
+    max-width: 8em;
+}
+
+#carImage {
+    max-width: 5em;
+}
+
+#coffeeImage {
+    max-width: 5vw;
+    background-color: white;
+    border-radius: 5px;
 }
