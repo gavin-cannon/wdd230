@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <title>NLC Chamber of Commerce</title>
 </head>
@@ -23,7 +26,7 @@
 <body>
     <header>
         <img src="images/d3eca38804654658ac7e84372198729a.png" alt="a sun rising behind two green mountains" id="logo">
-        <h1>North Logan City Chamber of Comerce</h1>
+        <h1>North Logan City Chamber of Commerce</h1>
 
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -46,7 +49,12 @@
 
     <main>
         <div id="hero">
-            <img src="images/Screenshot 2022-05-14 145039.jpg" id="heroImage" alt=" snow capped mountains are behind a tree filled suburb in front of a park with a soccer goal ">
+            <figure>
+                <img src="images/mountains.jpg" id="heroImage" alt=" snow capped mountains are behind a tree filled suburb in front of a park with a soccer goal " sizes="50vw" srcset="images/804pxorsmall.jpg 804w, images/1607medium.jpg 1607w, images/3214large.jpg 3214w">
+
+
+
+            </figure>
         </div>
         <div id="event">
             <h3>Pioneer Day</h3>
@@ -55,12 +63,12 @@
         </div>
         <div id="spotlight_section">
             <h3>Spotlight Section</h3>
-            <div id="spotlight_one ">
+            <div id="spotlight_one">
                 <h4>Sadness Motors</h4>
                 <img id="carImage" src="images/car-308454_1280.png" alt="a blue car. its also a sedan.">
                 <p>sadmotors@gmail.com <br> 14352345678</p>
             </div>
-            <div id="spotlight_two ">
+            <div id="spotlight_two">
                 <h4>Southside Cafe</h4>
                 <img id="coffeeImage" src="images/coffee-1918552_1280.png" alt="a cup of steaming coffee.">
                 <p>sscafe@gmail.com <br> 14353345678</p>
@@ -69,17 +77,15 @@
         <div id="weather">
             <div id="inner_weather">
                 <h3>Weather</h3>
-                <p><img id="sunImage" src="images/the-sms-holdings-way-sun-png-3.png" alt="a cartoonish sun"><br>
-                    <b>Temperature:</b>77 F <br>
-                    <b>Forecast:</b> Sunny <br> <b>Wind Speed:</b> 1 mph <br> <b>Feels Like:</b> 70 F</p>
-
+                <span><img id="sunImage" src="images/the-sms-holdings-way-sun-png-3.png" alt="a cartoonish sun"></span><br>
+                <b>Temperature:</b><span id="temperatureF">50</span><br>
+                <b>Forecast:</b> Sunny <br> <b>Wind Speed:</b> <span id="windSpeed">3</span> mph <br> <b>Wind Chill:</b><span id="windChill"></span>
             </div>
         </div>
         <div id="news_release">
-            <h3>News Release</h2>
-                <p>Local school sports team won their game against other local school sports team. Isn't that cool? I went to the sports game and I had a fun time. In other news there is a lot going on in the canyon this week. Get ready for Canyon festival
-                    celebration.
-                </p>
+            <h3>News Release</h3>
+            <p>Local school sports team won their game against other local school sports team. Isn't that cool? I went to the sports game and I had a fun time. In other news there is a lot going on in the canyon this week. Get ready for Canyon festival celebration.
+            </p>
         </div>
 
         <div id="join">
@@ -105,6 +111,7 @@
         </p>
 
         <script src="js/script.js"></script>
+        <script src="js/windchill.js"></script>
     </footer>
 </body>
 

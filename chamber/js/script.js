@@ -3,12 +3,12 @@ function toggleMenu() {
     document.getElementById("hamburgerBtn").classList.toggle("open");
 
 }
-const x = document.getElementById('hamburgerBtn')
+const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
-let date = new Date()
-let year = date.getFullYear()
-let day_number = date.getDate()
+let date = new Date();
+let year = date.getFullYear();
+let day_number = date.getDate();
 
 document.querySelector("#copyright").innerHTML = "&copy;" + year;
 
@@ -22,10 +22,10 @@ let full_date = name_of_days[date.getDay()] + ", " + day_number + " " + month[da
 
 document.querySelector("#todays_date").innerHTML = full_date;
 
-
-if (name_of_days == "Monday" || "Tuesday") {
+let invite = "";
+if (name_of_days[date.getDay()] == "Monday" || name_of_days[date.getDay()] == "Tuesday") {
     invite = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 } else {
-    invite = "hi";
+    invite = "";
 }
 document.querySelector("#come_join").innerHTML = invite;

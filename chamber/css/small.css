@@ -5,6 +5,7 @@ body nav {
     flex-direction: column;
     background-color: #27313B;
     padding: 10px;
+    align-items: center;
 }
 
 body nav ul {
@@ -19,7 +20,7 @@ nav button {
     border: none;
     font-size: 2rem;
     color: #555;
-    align-content: left;
+    align-content: flex-start;
 }
 
 nav ul li a {
@@ -103,9 +104,49 @@ nav ul li a {
     max-width: 10em;
 }
 
+
+/* FONTS */
+
 h1 {
     font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+    font: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
+}
+
+h5 {
+    font: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
+}
+
+b {
+    font: "Roboto Slab";
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#todays_date {
+    font-family: 'Poppins', sans-serif;
+}
+
+#come_join {
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
@@ -139,10 +180,13 @@ a:hover {
     color: #59A86A;
 }
 
+
+/* CONTENT BOXES*/
+
 #event {
     background-color: #2C4E37;
     border-radius: 30px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 #weather {
@@ -160,8 +204,7 @@ a:hover {
 #spotlight_section {
     background-color: #2C4E37;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 main div button {
