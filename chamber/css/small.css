@@ -232,3 +232,16 @@ main div button {
     background-color: white;
     border-radius: 5px;
 }
+
+
+/* DISCOVER PAGE CSS */
+
+#discMain {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#demographic {
+    text-align: center;
+}

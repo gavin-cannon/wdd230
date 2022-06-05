@@ -6,28 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Page exploring North Logan City.">
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="/chamber/css/small.css" />
+    <link rel="stylesheet" href="/chamber/css/medium.css" />
+    <link rel="stylesheet" href="/chamber/css/large.css" />
     <title>Discover</title>
 </head>
 
 <body>
-    <main>
-        <figure>
-            <picture><img src="imagesDISC/" alt="A library during the winter."></picture>
-            <figcaption>North Logan's great library</figcaption>
-        </figure>
-        <picture><img src="/chamber/discoverpage/images/misty.jpg" alt="a picture of a mountain range."></picture>
-        <picture><img src="/chamber/discoverpage/images/purple.jpg"></picture>
-        <picture><img src="/chamber/discoverpage/images/WOLF.jpg"></picture>
-        <picture></picture>
-        <div>
-            <h2>Demographic Data</h2>
-        </div>
+    <header>
+        <img src="/chamber/images/d3eca38804654658ac7e84372198729a.webp" alt="a sun rising behind two green mountains" id="logo">
+        <h1>North Logan City Chamber of Commerce</h1>
 
-    </main>
-    <script src="js/script.js"></script>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Products</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="https://www.youtube.com"><img src="/chamber/images/PiujLSnhT7qXnuVkgRXf_Youtube_logo-2.png" alt="youtube logo" id="youtube"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com"><img src="/chamber/images/887584_logo_512x512.png" alt="its the twitter logo" class="twitter"> </a>
+                </li>
+            </ul>
+        </nav>
+        <main id="discMain">
+            <div id="discGallery">
+                <figure>
+                    <picture><img src="imagesDISC/LIBRARY.jpg" alt="A library during the winter."></picture>
+                    <figcaption>North Logan's Great Library</figcaption>
+                </figure>
+                <figure>
+                    <picture><img src="imagesDISC/MISTY.jpg" alt="a picture of a mountain range."></picture>
+                    <figcaption>Rocky Mountain Range and School Offices</figcaption>
+                </figure>
+                <figure>
+                    <picture><img src="imagesDISC/TOXIC.jpg" alt="a pool of toxic water"></picture>
+                    <figcaption>Leftovers From Our Water Treatment Plant</figcaption>
+                </figure>
+                <figure>
+                    <picture><img src="imagesDISC/WOLF.jpg" alt="a wolf statue"></picture>
+                    <figcaption>Wolf Statue From Our High School</figcaption>
+                </figure>
+
+
+
+                <picture></picture>
+                <div id="demographic">
+                    <h2>Demographic Data</h2>
+                </div>
+            </div>
+
+        </main>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

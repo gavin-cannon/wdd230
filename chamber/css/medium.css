@@ -47,4 +47,14 @@
         #hamburgerBtn.open span:nth-child(2) {
             display: block;
         }
+        /* DISCOVER CSS*/
+        #discGallery {
+            display: grid;
+            grid-template-columns: repeat(5, 20rem);
+            column-gap: 5px;
+            align-content: center;
+        }
+        #discGallery img {
+            max-width: 20rem;
+        }
     }
