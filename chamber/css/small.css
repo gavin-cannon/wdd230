@@ -245,3 +245,12 @@ main div button {
 #demographic {
     text-align: center;
 }
+
+.discImage {
+    max-width: 15rem;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
