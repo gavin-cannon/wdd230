@@ -250,6 +250,10 @@ main div button {
     max-width: 15rem;
 }
 
+img[data-src] {
+    filter: blur(20.2em);
+}
+
 img {
     filter: blur(0em);
     transition: filter 0.5s;
