@@ -258,3 +258,15 @@ img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+figure img {
+    vertical-align: top;
+}
+
+figcaption {
+    text-align: center;
+}
+
+* {
+    color: green;
+}

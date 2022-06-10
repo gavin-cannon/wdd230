@@ -81,14 +81,32 @@
     /* DISCOVER CSS */
     #discGallery {
         display: grid;
-        grid-template-columns: repeat(5, 20rem);
-        column-gap: 5px;
+        grid-template-columns: repeat(5, 18vw);
+        object-fit: contain;
         align-content: center;
+        column-gap: 1px;
+        margin-right: 50px;
     }
     #discGallery img {
         max-width: 20rem;
     }
     .discImage:hover {
         box-shadow: 0 0 50px black;
+    }
+    body {
+        max-width: 100%
+    }
+    #discGallery img {
+        width: 100%;
+    }
+    #discMain {
+        max-width: 940px;
+        margin: auto;
+    }
+    * {
+        color: red;
+    }
+    figure {
+        width: 100%;
     }
 }

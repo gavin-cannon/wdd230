@@ -50,14 +50,28 @@
         /* DISCOVER CSS*/
         #discGallery {
             display: grid;
-            grid-template-columns: repeat(5, 20rem);
-            column-gap: 5px;
+            grid-template-columns: repeat(5, 19vw);
+            grid-template-rows: repeat(2, auto);
             align-content: center;
+            text-align: center;
+            margin-right: 20px;
         }
-        #discGallery img {
-            max-width: 20rem;
+        figcaption {
+            font-size: 75%;
+        }
+        .discImage {
+            width: 15vw;
         }
         .discImage:hover {
             box-shadow: 0 0 50px black;
+        }
+        body {
+            max-width: 35rem;
+        }
+        #demographic {
+            grid-column: 1/6;
+        }
+        * {
+            color: blue;
         }
     }
