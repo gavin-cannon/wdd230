@@ -3,10 +3,11 @@
 }
 
 table {
-    margin: 5px;
+    margin: 10px;
     box-shadow: 5px 5px 5px #7A9EB5;
-    align-self: center;
-    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
 }
 
 table,

@@ -103,9 +103,6 @@
         max-width: 940px;
         margin: auto;
     }
-    * {
-        color: red;
-    }
     figure {
         width: 100%;
     }
