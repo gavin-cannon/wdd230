@@ -1,4 +1,3 @@
-// select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
@@ -12,7 +11,6 @@ async function apiFetch(apiURL) {
         const response = await fetch(apiURL);
         if (response.ok) {
             const data = await response.json();
-            //console.log(data); //temporary
             displayResults(data);
         } else {
             throw Error(await response.text())
