@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px black;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+}
+
+p,
+figcaption {
+    font-family: sans-serif;
+}
+
+#weather-icon {
+    align-self: center;
+}
