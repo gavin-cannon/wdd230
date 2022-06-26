@@ -43,8 +43,8 @@ function displayResults(weatherData) {
     document.getElementById("wind_speed").innerHTML = weatherData.wind.speed + " mph"
 
 
-    let t = document.querySelector("#current-temp").innerHTML;
-    let s = document.querySelector("#wind_speed").innerHTML;
+    let t = weatherData.main.temp.toFixed(1);
+    let s = weatherData.wind.speed;
     if (t <= 50 && s >= 3) {
         chillFactor = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + ((0.4275 * t) * (Math.pow(s, .16)));
 
