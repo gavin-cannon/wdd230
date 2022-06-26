@@ -4,11 +4,12 @@
         display: flex;
         flex-direction: row;
     }
-    body nav div {
+    body nav ul {
         display: flex;
         list-style: none;
         padding: 10px;
         justify-content: space-around;
+        margin: auto;
     }
     img {
         max-width: 40em;

@@ -104,40 +104,30 @@ nav ul li a {
     max-width: 10em;
 }
 
-#weather-icon {
-    max-width: 50px;
-}
-
 
 /* FONTS */
 
 h1 {
-    font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
 }
 
 h2 {
-    font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
 }
 
 h3 {
-    font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
 }
 
 h4 {
-    font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
 }
 
 h5 {
-    font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
 }
 
 b {
-    font: "Roboto Slab";
     font-family: 'Roboto Slab', serif;
 }
 
@@ -221,10 +211,6 @@ main div button {
     border-radius: 30px;
     margin: 10px;
     padding: 3px;
-}
-
-#sunImage {
-    max-width: 8em;
 }
 
 #carImage {
