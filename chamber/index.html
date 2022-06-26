@@ -2,17 +2,22 @@
 <html lang="en">
 
 <head>
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This website serves as the home page for my Chamber of Commerce website.">
 
+
     <link rel="shortcut icon" href="/images/favicon.ico">
+
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +26,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
+
     <title>NLC Chamber of Commerce</title>
+
+
 </head>
 
 <body>
+
+
     <header>
         <img src="images/d3eca38804654658ac7e84372198729a.png" alt="a sun rising behind two green mountains" id="logo">
         <h1>North Logan City Chamber of Commerce</h1>
@@ -48,7 +58,10 @@
         <div id="come_join"></div>
     </header>
 
+
     <main>
+
+
         <div id="hero">
             <figure>
                 <img src="images/mountains.jpg" id="heroImage" alt=" snow capped mountains are behind a tree filled suburb in front of a park with a soccer goal " sizes="50vw" srcset="images/804pxorsmall.jpg 804w, images/1607medium.jpg 1607w, images/3214large.jpg 3214w">
@@ -57,11 +70,15 @@
 
             </figure>
         </div>
+
+
         <div id="event">
             <h3>Pioneer Day</h3>
             <p>Pioneer Day is a day where we celebrate our Pioneer heritage and have a big parade. Come to the Field Park located behind the city center to watch the parade and participate in activities and look at booths afterwards. I am sure you will have
                 lots of fun. No shoot and soak though, because our city has lost its sense of childlike wonder and joy.</p>
         </div>
+
+
         <div id="spotlight_section">
             <h3>Spotlight Section</h3>
             <div id="spotlight_one">
@@ -75,19 +92,33 @@
                 <p>sscafe@gmail.com <br> 14353345678</p>
             </div>
         </div>
+
+
         <div id="weather">
-            <div id="inner_weather">
-                <h3>Weather</h3>
-                <span><img id="sunImage" src="images/the-sms-holdings-way-sun-png-3.png" alt="a cartoonish sun"></span><br>
-                <b>Temperature:</b><span id="temperatureF">50</span><br>
-                <b>Forecast:</b> Sunny <br> <b>Wind Speed:</b> <span id="windSpeed">3</span> mph <br> <b>Wind Chill:</b><span id="windChill"></span>
+            <div>
+                <h1>Weather</h1>
+                <p>
+                    The current temperature in North Logan, Utah is <span id="current-temp"></span>&deg;F
+                </p>
+                <h2>Current Condition Icon</h2>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p><b>Wind Speed: </b><span id="wind_speed"></span></p>
+                <p><b>Wind Chill: </b><span id="wind_chill"></span></p>
             </div>
+
         </div>
+        </div>
+
+
         <div id="news_release">
             <h3>News Release</h3>
             <p>Local school sports team won their game against other local school sports team. Isn't that cool? I went to the sports game and I had a fun time. In other news there is a lot going on in the canyon this week. Get ready for Canyon festival celebration.
             </p>
         </div>
+
 
         <div id="join">
             <h3>Join The Chamber</h3>
@@ -97,7 +128,10 @@
             <p>Joining the chamber offers business owners all sorts of perks and helpful news.</p>
         </div>
 
+
     </main>
+
+
     <footer>
         <div>
             <img src="images/d3eca38804654658ac7e84372198729a.png " id="logo2" alt="a sun rising behind two green mountains ">
@@ -111,9 +145,15 @@
             <a href="index.html">Return To Main Page</a>
         </p>
 
+
         <script src="js/script.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/weather-API.js"></script>
+
+
     </footer>
+
+
 </body>
 
 </html>
