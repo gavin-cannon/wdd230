@@ -313,3 +313,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+#thanks-text {
+    text-align: center;
+}
