@@ -315,3 +315,17 @@ form label.top input:required:valid {
 #thanks-text {
     text-align: center;
 }
+
+
+/*----------- JOIN BUTTON --------------*/
+
+div div button {
+    background-color: #181F25;
+    color: white;
+}
+
+div p a {
+    background-color: #181F25;
+    padding: 4px;
+    border-radius: 3px;
+}
