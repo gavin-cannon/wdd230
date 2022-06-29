@@ -94,15 +94,8 @@
     .discImage:hover {
         box-shadow: 0 0 50px black;
     }
-    body {
-        max-width: 100%
-    }
     #discGallery img {
         width: 100%;
-    }
-    #discMain {
-        max-width: 940px;
-        margin: auto;
     }
     figure {
         width: 100%;

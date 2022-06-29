@@ -65,9 +65,6 @@
         .discImage:hover {
             box-shadow: 0 0 50px black;
         }
-        body {
-            max-width: 35rem;
-        }
         #demographic {
             grid-column: 1/6;
         }

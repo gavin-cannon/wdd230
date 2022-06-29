@@ -14,6 +14,10 @@ body nav ul {
     justify-content: space-around;
 }
 
+nav ul li {
+    padding: 5px;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -178,25 +182,25 @@ a:hover {
 /* CONTENT BOXES*/
 
 #event {
-    background-color: #2C4E37;
+    background-color: #AFD5B7;
     border-radius: 30px;
     margin: 10px;
 }
 
 #weather {
-    background-color: #2C4E37;
+    background-color: #AFD5B7;
     border-radius: 30px;
     margin: 10px;
 }
 
 #news_release {
-    background-color: #2C4E37;
+    background-color: #AFD5B7;
     border-radius: 30px;
     margin: 10px;
 }
 
 #spotlight_section {
-    background-color: #2C4E37;
+    background-color: #AFD5B7;
     border-radius: 30px;
     margin: 10px;
 }
@@ -207,7 +211,7 @@ main div button {
 }
 
 #join {
-    background-color: #2C4E37;
+    background-color: #AFD5B7;
     border-radius: 30px;
     margin: 10px;
     padding: 3px;
@@ -225,12 +229,6 @@ main div button {
 
 
 /* DISCOVER PAGE CSS */
-
-#discMain {
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
 
 #demographic {
     text-align: center;
