@@ -27,8 +27,8 @@ function buildProphetCards(data) {
         let p = document.createElement('p');
 
         console.log("YOU WORKING ?")
-        h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-        p.innerHTML = `Location of Birth ${prophet.birthplace}<br> <br> Date Of Birth: ${prophet.birthdate}`;
+        h2.innerHTML = `${prophet.name}`;
+        p.innerHTML = `Phone Number: ${prophet.phone}<br> <br> Address: ${prophet.address}`;
         portrait.setAttribute('src', `${prophet.imageurl}`)
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`)
         portrait.setAttribute('loading', 'lazy')

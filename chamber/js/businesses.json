@@ -1,156 +1,85 @@
 {
     "prophets": [{
             "name": "BUSINESS 1",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "1111 N 1111 E",
+            "phone": "18011234511",
             "website": "https://www.google.com",
-            "membership_level": 14,
+            "membership_level": 1,
             "order": 1,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 2",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "2222 N 2222 E",
+            "phone": "18011234522",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 1,
+            "order": 2,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 3",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "3333 N 3333 E",
+            "phone": "18011234533",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 1,
+            "order": 3,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 4",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "4444 N 4444 E",
+            "phone": "18011234544",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 2,
+            "order": 4,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 5",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "5555 N 5555 E",
+            "phone": "18011234555",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 2,
+            "order": 5,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 6",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "6666 N 6666 E",
+            "phone": "18011234566",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 2,
+            "order": 6,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 7",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "7777 N 7777 E",
+            "phone": "18011234577",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 3,
+            "order": 7,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 8",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "8888 N 8888 E",
+            "phone": "18011234588",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 3,
+            "order": 8,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "BUSINESS 9",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
+            "address": "9999 N 9999 E",
+            "phone": "18011234599",
             "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 10",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 11",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 12",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 13",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 14",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 15",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 16",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
-        },
-        {
-            "name": "BUSINESS 17",
-            "address": "1000 N 1000 E",
-            "phone": "18011234567",
-            "website": "https://www.google.com",
-            "membership_level": 14,
-            "order": 1,
+            "membership_level": 3,
+            "order": 9,
             "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         }
+
     ]
 }

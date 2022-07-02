@@ -329,3 +329,86 @@ div p a {
     padding: 4px;
     border-radius: 3px;
 }
+
+
+/*----------- DIRECTORY --------------*/
+
+
+/* .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+
+/* section {
+    margin-bottom: 45px;
+} */
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bbb;
+    text-align: center;
+}
+
+#directory_main {
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    padding: 0.5rem;
+    max-width: 700px;
+    background-color: #eee;
+    font-family: "Caveat", cursive;
+}
+
+#directory_main img {
+    height: 75px;
+    max-width: 100%;
+    /* Images are jerks - Seattle*/
+}
+
+.menu button {
+    padding: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    align-items: center;
+}
+
+.grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid section>* {
+    margin: 0.1rem;
+}
+
+.list section {
+    flex-direction: row;
+    justify-content: left;
+}
+
+.list section>* {
+    margin: 0 1rem;
+    text-align: left;
+}
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
