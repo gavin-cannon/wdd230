@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 1024px) {
     /*NAVIGATION CSS*/
     body nav {
         display: flex;
@@ -101,4 +101,7 @@
         width: 100%;
     }
     /*----------- DIRECTORY --------------*/
+    * {
+        color: green;
+    }
 }
