@@ -66,6 +66,10 @@ nav ul.open {
 
 /* End NAVIGATION CSS*/
 
+body {
+    background-color: #F4E9DF;
+}
+
 header {
     justify-content: center;
     text-align: center;
@@ -81,11 +85,11 @@ footer {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
     background-color: #F4E9DF;
     padding: 10px;
     align-content: center;
+    margin: auto;
+    max-width: 1300px;
 }
 
 main div {
@@ -228,6 +232,15 @@ main div button {
 
 /* DISCOVER PAGE CSS */
 
+#discGallery {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+    align-content: center;
+    text-align: center;
+    padding: 0;
+}
+
 #demographic {
     text-align: center;
 }
@@ -251,6 +264,7 @@ figure img {
 
 figcaption {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 #discMain h2 {
@@ -270,12 +284,16 @@ figcaption {
     margin-bottom: 50px;
 }
 
+figure {
+    margin: 0;
+}
+
 
 /*----------- FORM --------------*/
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #E89700;
+    border: 3px solid #E89700;
     border-radius: 10px;
     padding: .5rem 2%;
 }
