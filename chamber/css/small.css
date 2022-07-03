@@ -220,6 +220,11 @@ a:hover {
     margin: 10px;
 }
 
+#spotlight_section img {
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
 main div button {
     background-color: #27313B;
     border-radius: 8px;
