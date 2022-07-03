@@ -291,6 +291,10 @@ figure {
 
 /*----------- FORM --------------*/
 
+form {
+    max-width: 600px;
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 3px solid #E89700;
@@ -345,10 +349,6 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-#thanks-text {
-    text-align: center;
-}
-
 
 /*----------- JOIN BUTTON --------------*/
 
@@ -361,6 +361,22 @@ div p a {
     background-color: #010910;
     padding: 4px;
     border-radius: 3px;
+}
+
+
+/*----------- JOIN PAGE --------------*/
+
+#membership_info {
+    background-color: #AFD5B7;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 15px;
+    max-height: 750px;
+    margin-top: 50px;
+}
+
+.join_main {
+    display: flex;
 }
 
 
@@ -381,29 +397,35 @@ div p a {
 
 .menu {
     margin: 1rem auto;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 3px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: #bbb;
+    background-color: #27313B;
     text-align: center;
+}
+
+.menu button {
+    background-color: #F4E9DF;
 }
 
 #directory_main {
     margin: 0 auto;
-    border: 1px solid #bbb;
+    border: 3px solid #808284;
     padding: 0.5rem;
     max-width: 700px;
-    background-color: #eee;
-    font-family: "Caveat", cursive;
+    background-color: #F4E9DF;
 }
 
 #directory_main img {
     height: 75px;
     max-width: 100%;
-    /* Images are jerks - Seattle*/
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .menu button {
     padding: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .grid {
@@ -420,11 +442,27 @@ div p a {
 .list section {
     display: flex;
     align-items: center;
+    background-color: #efdac9;
+    margin: 1px;
+    padding: 3px;
 }
 
 .grid section {
     flex-direction: column;
     text-align: center;
+    background-color: #efdac9;
+    margin: 1px;
+    padding: 3px;
+}
+
+.grid section p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.list section p {
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .grid section>* {
@@ -444,4 +482,12 @@ div p a {
 .list section img {
     display: none;
     /* smaller viewports only */
+}
+
+
+/*----------- THANK YOU PAGE --------------*/
+
+#thanks_text {
+    margin: 250px;
+    text-align: center;
 }
