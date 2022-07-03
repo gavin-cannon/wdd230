@@ -43,6 +43,10 @@
         .third-card {
             display: none;
         }
+        #spotlight_section img {
+            max-width: 250px;
+            margin-bottom: 30px;
+        }
         nav ul.open {
             display: flex;
         }
