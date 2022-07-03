@@ -1,84 +1,84 @@
 {
     "prophets": [{
-            "name": "BUSINESS 1",
+            "name": "Allen Mortuary",
             "address": "1111 N 1111 E",
             "phone": "18011234511",
-            "website": "https://www.google.com",
+            "website": "https://www.allenmortuaries.net/",
             "membership_level": 1,
             "order": 1,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/allen.webp"
         },
         {
-            "name": "BUSINESS 2",
+            "name": "Kimberbell",
             "address": "2222 N 2222 E",
             "phone": "18011234522",
-            "website": "https://www.google.com",
+            "website": "https://blog.kimberbell.com/thekimberbellablog/introducing-the-kimberbell-vault-download-and-stitch-classic-machine-embroidery-sewing-and-applique-projects-today",
             "membership_level": 1,
             "order": 2,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/kimberbell.webp"
         },
         {
-            "name": "BUSINESS 3",
+            "name": "Earthly Awakenings",
             "address": "3333 N 3333 E",
             "phone": "18011234533",
-            "website": "https://www.google.com",
+            "website": "https://earthlyawakenings.com/password",
             "membership_level": 1,
             "order": 3,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/earthly.webp"
         },
         {
-            "name": "BUSINESS 4",
+            "name": "Kubex",
             "address": "4444 N 4444 E",
             "phone": "18011234544",
-            "website": "https://www.google.com",
+            "website": "https://kubexfitness.com/",
             "membership_level": 2,
             "order": 4,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/kubex.webp"
         },
         {
-            "name": "BUSINESS 5",
+            "name": "Logan Lanes",
             "address": "5555 N 5555 E",
             "phone": "18011234555",
-            "website": "https://www.google.com",
+            "website": "https://loganlanesinc.com/",
             "membership_level": 2,
             "order": 5,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/lanes.webp"
         },
         {
-            "name": "BUSINESS 6",
+            "name": "Maverik",
             "address": "6666 N 6666 E",
             "phone": "18011234566",
-            "website": "https://www.google.com",
+            "website": "https://www.maverik.com/",
             "membership_level": 2,
             "order": 6,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/maverik.webp"
         },
         {
-            "name": "BUSINESS 7",
+            "name": "Wilson Motor",
             "address": "7777 N 7777 E",
             "phone": "18011234577",
-            "website": "https://www.google.com",
+            "website": "https://www.wilsonmotor.com/",
             "membership_level": 3,
             "order": 7,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/wilsonmotor.webp"
         },
         {
-            "name": "BUSINESS 8",
+            "name": "Zootah",
             "address": "8888 N 8888 E",
             "phone": "18011234588",
-            "website": "https://www.google.com",
+            "website": "https://zootah.org/",
             "membership_level": 3,
             "order": 8,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/zootah.webp"
         },
         {
-            "name": "BUSINESS 9",
+            "name": "Riverwoods",
             "address": "9999 N 9999 E",
             "phone": "18011234599",
-            "website": "https://www.google.com",
+            "website": "https://www.theriverwoods.com/facilities-index-impact",
             "membership_level": 3,
             "order": 9,
-            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "images/riverwoods.webp"
         }
 
     ]
