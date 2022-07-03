@@ -195,6 +195,19 @@ a:hover {
     margin: 10px;
 }
 
+#call_to_action {
+    background-color: #AFD5B7;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+#call_to_action h3 {
+    margin-top: 0px;
+    margin: 15px;
+}
+
 #news_release {
     background-color: #AFD5B7;
     border-radius: 30px;
@@ -371,7 +384,6 @@ div p a {
     border-radius: 30px;
     margin: 20px;
     padding: 15px;
-    max-height: 950px;
     margin-top: 50px;
     justify-content: space-between;
 }
@@ -379,6 +391,10 @@ div p a {
 .join_main {
     display: flex;
     flex-direction: column;
+}
+
+#membership_info textarea {
+    max-width: 50px;
 }
 
 
@@ -455,6 +471,7 @@ div p a {
     background-color: #efdac9;
     margin: 1px;
     padding: 3px;
+    height: 99%;
 }
 
 .grid section p {

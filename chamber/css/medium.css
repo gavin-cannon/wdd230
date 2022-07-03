@@ -79,6 +79,13 @@
         /*----------- DIRECTORY --------------*/
         /*----------- JOIN PAGE --------------*/
         .join_main {
-            flex-direction: row;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        #join_form {
+            grid-column: 1/2;
+        }
+        #membership_info {
+            grid-column: 2/3;
         }
     }

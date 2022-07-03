@@ -71,7 +71,38 @@
     }
     #news_release {
         grid-column: 2/3;
-        grid-row: 3/4;
+        grid-row: 2/4;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 8% 1fr 1fr
+    }
+    #news_release h2 {
+        grid-row: 1;
+        grid-column: 1/2;
+    }
+    #story_one {
+        grid-row: 2;
+        grid-column: 1/2;
+    }
+    #story_two {
+        grid-row: 2;
+        grid-column: 2/3;
+    }
+    #story_three {
+        grid-row: 2;
+        grid-column: 3/4;
+    }
+    #story_four {
+        grid-row: 3;
+        grid-column: 1/2;
+    }
+    #story_five {
+        grid-row: 3;
+        grid-column: 2/3;
+    }
+    #story_six {
+        grid-row: 3;
+        grid-column: 3/4;
     }
     #join {
         grid-column: 1/2;
