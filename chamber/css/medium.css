@@ -40,6 +40,9 @@
             display: flex;
             flex-direction: column;
         }
+        .third-card {
+            display: none;
+        }
         nav ul.open {
             display: flex;
         }
@@ -52,8 +55,8 @@
         /* DISCOVER CSS*/
         #discGallery {
             display: grid;
-            grid-template-columns: repeat(5, 19vw);
-            grid-template-rows: repeat(2, auto);
+            grid-template-columns: repeat(1, auto);
+            grid-template-rows: repeat(1, auto);
             align-content: center;
             text-align: center;
         }
@@ -73,23 +76,5 @@
         /*----------- JOIN PAGE --------------*/
         .join_main {
             flex-direction: row;
-        }
-        #membership_info {
-            background-color: #AFD5B7;
-            border-radius: 30px;
-            margin: 20px;
-            padding: 15px;
-            max-height: 1100px;
-            margin-top: 50px;
-            justify-content: space-between;
-        }
-        #join_form {
-            max-width: 250px;
-        }
-        #join_form textarea {
-            max-width: 450px;
-        }
-        #join_form input {
-            width: 550px;
         }
     }
