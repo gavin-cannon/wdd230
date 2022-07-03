@@ -251,7 +251,7 @@ main div button {
 }
 
 img[data-src] {
-    filter: blur(20.2em);
+    filter: blur(0em);
 }
 
 img {
@@ -371,12 +371,14 @@ div p a {
     border-radius: 30px;
     margin: 20px;
     padding: 15px;
-    max-height: 750px;
+    max-height: 950px;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 .join_main {
     display: flex;
+    flex-direction: column;
 }
 
 
