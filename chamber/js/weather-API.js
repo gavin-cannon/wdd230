@@ -52,7 +52,7 @@ function displayResults(weatherData) {
 
         document.querySelector("#wind_chill").innerHTML = " " + chillFinal + " F"
 
-        console.log("Eureka!")
+
     } else {
         document.querySelector("#wind_chill").innerHTML = " " + "N/A";
     }

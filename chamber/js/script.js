@@ -50,7 +50,6 @@ getProphets()
 
 
 async function getProphets() {
-    console.log("HELLO???")
     let response = await fetch(requestURL);
     if (response.ok) {
         let data = await response.json();
@@ -70,7 +69,6 @@ function buildProphetCards(data) {
         let portrait = document.createElement('img');
         let p = document.createElement('p');
 
-        console.log("YOU WORKING ?")
         h2.innerHTML = `${prophet.name}`;
         p.innerHTML = `Phone Number: ${prophet.phone}<br> Address: ${prophet.address}`;
         portrait.setAttribute('src', `${prophet.imageurl}`)
