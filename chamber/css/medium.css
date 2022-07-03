@@ -58,17 +58,14 @@
         }
         /* DISCOVER CSS*/
         #discGallery {
-            display: grid;
-            grid-template-columns: repeat(1, auto);
-            grid-template-rows: repeat(1, auto);
-            align-content: center;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
         }
         figcaption {
             font-size: 75%;
         }
         .discImage {
-            width: 15vw;
+            max-width: 100%;
         }
         .discImage:hover {
             box-shadow: 0 0 50px black;
