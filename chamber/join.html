@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This website serves as the home page for my Chamber of Commerce website. Join the North Logan City Chamber and list your business in our directory.">
+    <meta name="description" content="This is the join page of my chamber website. Business owners can pay to join the chamber for certain groups of rewards.">
 
 
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -60,21 +60,23 @@
 
 
 
-    <!-- CONTENT HERE -->
+
     <main class="join_main">
         <form method="get" action="thankyou.html" id="join_form">
             <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top" for="email">Enter your email:
+                <legend>
+                    <h2>Applicant Information</h2>
+                </legend>
+                <label class="top"><h3>First Name*</h3><input type="text" name="fname" required></label>
+                <label class="top"><h3>Last Name*</h3><input type="text" name="lname" required></label>
+                <label class="top" for="email"><h3>Enter your email:</h3>
                     <input type="email" id="email" name="email" placeholder="email@email.com" required></label>
-                <!-- <label class="top">Business Position<input type="tel" name="phone" placeholder="12345551234"></label> -->
-                <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
-                <label class="top">Business Position<input type="text" name="title" minlength="7" pattern="[a-zA-Z\-\s]{0,7}"></label>
-                <label class="top">Phone<input type="tel" name="phone" placeholder="12345551234"></label>
+
+                <label class="top"><h3>Website</h3><input type="url" name="url" placeholder="http://"></label>
+                <label class="top"><h3>Business Position</h3><input type="text" name="title" minlength="7" pattern="[a-zA-Z\-\s]{0,7}"></label>
+                <label class="top"><h3>Phone</h3><input type="tel" name="phone" placeholder="12345551234"></label>
                 <input type="hidden" value="" id="hidden_date">
-                <!-- <label class="top">Business Position<input type="tel" name="phone" placeholder="12345551234"></label> -->
+
 
 
             </fieldset>
@@ -88,7 +90,7 @@
             </fieldset>
 
             <fieldset>
-                <label><textarea id="form_textarea" name="" rows="4" cols="50">Please describe your business.</textarea></label>
+                <label><textarea id="form_textarea" name="text" rows="4" cols="50">Please describe your business.</textarea></label>
             </fieldset>
             <label><input type="submit" value="Get My Membership" class="submitBtn"></label>
         </form>
@@ -108,7 +110,7 @@
     </main>
 
 
-    <!-- FOOTER HERE -->
+
     <footer>
         <div>
             <img src="images/d3eca38804654658ac7e84372198729a.png " id="logo2" alt="a sun rising behind two green mountains ">

@@ -307,6 +307,27 @@ figure {
 }
 
 
+/*----------- JOIN PAGE --------------*/
+
+#membership_info {
+    background-color: #AFD5B7;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 15px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.join_main {
+    display: flex;
+    flex-direction: column;
+}
+
+#membership_info textarea {
+    max-width: 50px;
+}
+
+
 /*----------- FORM --------------*/
 
 form {
@@ -316,7 +337,7 @@ form {
 form fieldset {
     margin: 2rem 0;
     border: 3px solid #E89700;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: .5rem 2%;
 }
 
@@ -324,8 +345,20 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: red;
+    color: black;
     font-size: .8rem;
+}
+
+.join_main form h2 {
+    margin: 0px;
+}
+
+.join_main h3 {
+    margin: 0px;
+}
+
+.join_main p {
+    margin: 5px 0px 15px 0px;
 }
 
 form label.top input,
@@ -349,7 +382,7 @@ form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: black;
 }
 
 form input.submitBtn {
@@ -364,11 +397,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: red solid 8px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: green solid 8px;
 }
 
 
@@ -383,27 +416,6 @@ div p a {
     background-color: #010910;
     padding: 4px;
     border-radius: 3px;
-}
-
-
-/*----------- JOIN PAGE --------------*/
-
-#membership_info {
-    background-color: #AFD5B7;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 15px;
-    margin-top: 50px;
-    justify-content: space-between;
-}
-
-.join_main {
-    display: flex;
-    flex-direction: column;
-}
-
-#membership_info textarea {
-    max-width: 50px;
 }
 
 
