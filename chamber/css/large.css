@@ -29,7 +29,7 @@
     .home_main {
         display: grid;
         grid-template-columns: 1.5fr 1fr 1.5fr;
-        grid-template-rows: 1fr .5fr 1fr;
+        grid-template-rows: .55fr .3fr .65fr;
         background-color: #F4E9DF;
         padding: 10px;
     }
