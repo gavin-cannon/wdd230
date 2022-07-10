@@ -331,6 +331,12 @@ figure {
     max-width: 50px;
 }
 
+footer p a {
+    background-color: #010910;
+    padding: 4px;
+    border-radius: 3px;
+}
+
 
 /*----------- FORM --------------*/
 
@@ -351,6 +357,7 @@ form div {
     padding-top: 1rem;
     color: black;
     font-size: .8rem;
+    font-weight: 900;
 }
 
 .join_main form h2 {
