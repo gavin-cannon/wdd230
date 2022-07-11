@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1024px) {
+    /*NAVIGATION CSS*/
+    body nav {
+        display: flex;
+        flex-direction: row;
+    }
+    body nav ul {
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        justify-content: space-around;
+        margin: auto;
+    }
+    img {
+        max-width: 40em;
+    }
+    #mybtn {
+        display: none;
+        align-content: center;
+    }
+    nav ul {
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+    nav button {
+        align-content: center;
+    }
+    .hamburgerBtn {
+        display: none;
+    }
+}

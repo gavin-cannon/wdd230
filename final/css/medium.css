@@ -1,0 +1,21 @@
+@media only screen and (min-width: 640px) {
+    body nav {
+        display: flex;
+        flex-direction: row;
+    }
+    body nav div {
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    nav ul.open {
+        display: flex;
+    }
+    .hamburgerBtn.open span:nth-child(1) {
+        display: none;
+    }
+    .hamburgerBtn.open span:nth-child(2) {
+        display: block;
+    }
+}
