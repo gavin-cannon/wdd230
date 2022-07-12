@@ -29,4 +29,15 @@
     .hamburgerBtn {
         display: none;
     }
+    /* TEMPLE CONTENT AREA*/
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+    .temple_main {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    /* TEMPLE CONTENT AREA END*/
 }

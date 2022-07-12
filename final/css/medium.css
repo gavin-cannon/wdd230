@@ -18,4 +18,11 @@
     .hamburgerBtn.open span:nth-child(2) {
         display: block;
     }
+    /* TEMPLE CONTENT AREA*/
+    .cards {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* TEMPLE CONTENT AREA END*/
 }
