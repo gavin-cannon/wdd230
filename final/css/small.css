@@ -91,6 +91,7 @@ footer {
     background-color: #46777C;
     color: white;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 
@@ -113,6 +114,16 @@ h6 {
 
 p {
     font-family: 'Philosopher', sans-serif;
+}
+
+#youtube {
+    max-width: 1em;
+    margin: 5px;
+}
+
+.twitter {
+    max-width: 1.4em;
+    margin: 5px;
 }
 
 
@@ -147,3 +158,113 @@ section h2 {
 
 
 /* TEMPLE CONTENT AREA END*/
+
+
+/* RESERVATION PAGE*/
+
+#reservation_main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* FORM CSS */
+
+#reservation_form {
+    align-self: center;
+}
+
+form {
+    max-width: 600px;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 5px solid #46777C;
+    padding: .5rem 2%;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+    font-weight: 900;
+}
+
+.join_main form h2 {
+    margin: 0px;
+}
+
+.join_main h3 {
+    margin: 0px;
+}
+
+.join_main p {
+    margin: 5px 0px 15px 0px;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px darkgray;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 85%;
+    max-width: 20rem;
+    background-color: rgba(31, 27, 19, 0.1);
+}
+
+#form_textarea {
+    width: 95%;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #59A86A;
+    color: black;
+    font-weight: 900;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: rgb(255, 115, 0) solid 8px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(2, 180, 8) solid 8px;
+}
+
+
+/*----------- JOIN BUTTON --------------*/
+
+div div button {
+    background-color: #181F25;
+    color: white;
+}
+
+div p a {
+    background-color: #010910;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+
+/* FORM CSS END*/
+
+
+/* RESERVATION PAGE END*/
