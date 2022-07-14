@@ -46,11 +46,3 @@ imagesToLoad.forEach(image => {
 //         minutes + ":" + (seconds < 10 ? "0" : "") + seconds
 //     );
 // }
-
-function millisToMinutes() {
-    let minutes = (Date.now() / 1000) / 60;
-    return (
-        minutes
-    )
-}
-document.getElementById("today").innerHTML = millisToMinutes()
