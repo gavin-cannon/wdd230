@@ -10,7 +10,7 @@ let date = new Date();
 let year = date.getFullYear();
 let day_number = date.getDate();
 
-document.querySelector("#copyright").innerHTML = "&copy;" + year;
+document.querySelector(".copyright").innerHTML = "&copy;" + year;
 
 document.querySelector("#lastUpdated").innerHTML = `Last Updated: ${document.lastModified}`;
 
@@ -20,7 +20,7 @@ let month = ["January", "February", "March", "April", "May", "June", "July", "Au
 
 let full_date = name_of_days[date.getDay()] + ", " + day_number + " " + month[date.getMonth()] + " " + date.getFullYear();
 
-document.querySelector("#todays_date").innerHTML = full_date;
+document.querySelector(".todays_date").innerHTML = full_date;
 
 let invite = "";
 if (name_of_days[date.getDay()] == "Monday" || name_of_days[date.getDay()] == "Tuesday") {
@@ -28,4 +28,4 @@ if (name_of_days[date.getDay()] == "Monday" || name_of_days[date.getDay()] == "T
 } else {
     invite = "";
 }
-document.querySelector("#come_join").innerHTML = invite;
+document.querySelector(".come_join").innerHTML = invite;

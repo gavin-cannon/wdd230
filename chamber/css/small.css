@@ -84,7 +84,7 @@ footer {
     text-align: center;
 }
 
-#logo {
+.logo {
     min-width: 10%;
 }
 
@@ -104,7 +104,7 @@ main div {
     max-width: 17em;
 }
 
-#youtube {
+.youtube {
     max-width: 1em;
 }
 
