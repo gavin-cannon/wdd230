@@ -6,7 +6,8 @@
             "website": "https://churchofjesuschristtemples.org/auckland-new-zealand-temple/",
             "membership_level": 1,
             "order": 1,
-            "imageurl": "images/auckland.jpg"
+            "imageurl": "images/auckland.jpg",
+            "likebutton": "images/heart.png"
         },
         {
             "name": "Rexburg",
@@ -15,7 +16,8 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
             "membership_level": 1,
             "order": 2,
-            "imageurl": "images/rexburg.jpg"
+            "imageurl": "images/rexburg.jpg",
+            "likebutton": "images/heart.png"
         },
         {
             "name": "Hawaii",
@@ -24,7 +26,8 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
             "membership_level": 1,
             "order": 3,
-            "imageurl": "images/hawaii.jpg"
+            "imageurl": "images/hawaii.jpg",
+            "likebutton": "images/heart.png"
         },
         {
             "name": "Washington D.C. Temple",
@@ -33,7 +36,8 @@
             "website": "https://dctemple.org/",
             "membership_level": 2,
             "order": 4,
-            "imageurl": "images/dc.jpg"
+            "imageurl": "images/dc.jpg",
+            "likebutton": "images/heart.png"
         }
 
     ]
