@@ -41,7 +41,7 @@
 
 
     <main>
-        <div>
+        <div class="boo blue">
             <p>Call to action</p>
         </div>
 
@@ -49,7 +49,22 @@
 
         <div class="weather_alert"></div>
 
-        <div class="forecast"></div>
+        <div class="forecast">
+            <div>
+                <h2>Weather</h2>
+                <p>
+                    Current Temperature: <span id="current-temp"></span>&deg;F
+                </p>
+                <h3>Current Condition Icon</h3>
+                <figure>
+                    <img src="images/plc300x400.png" alt="weather related icon" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <h3>Wind Speed: </h3><span id="wind_speed"></span>
+                <h3>Wind Chill: </h3><span id="wind_chill"></span>
+            </div>
+
+        </div>
 
     </main>
 
@@ -75,7 +90,7 @@
 
 
         <script src="js/nav.js"></script>
-        <script src="js/weather-API.js"></script>
+        <script src="js/weather_api.js"></script>
         <script src="js/home_temples.js"></script>
 
 
