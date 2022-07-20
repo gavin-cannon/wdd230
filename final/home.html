@@ -49,13 +49,18 @@
 
         <div class="weather_alert"></div>
 
-        <div class="forecast">
-            <div>
-                <h2>Weather</h2>
+        <div id="weather">
+            <h2>Weather</h2>
+            <div id="government"></div>
+            <h3>Current Weather</h3>
+            <div id="current_weather_div">
                 <p>
-                    Current Temperature: <span id="current-temp"></span>&deg;F
+                    Current Temperature: <span id="current_temp"></span>&deg;F
                 </p>
-                <h3>Current Condition Icon</h3>
+                <p>
+                    Current Humidity: <span class="humid"></span>
+                </p>
+                <h4>Current Condition Icon</h4>
                 <figure>
                     <img src="images/plc300x400.png" alt="weather related icon" id="weather-icon" />
                     <figcaption></figcaption>
@@ -63,7 +68,26 @@
                 <h3>Wind Speed: </h3><span id="wind_speed"></span>
                 <h3>Wind Chill: </h3><span id="wind_chill"></span>
             </div>
-
+            <div class="forecast">
+                <div>
+                    <p class="day1_date"></p>
+                    <img src="images/" alt="weather related icon" class="day1_icon"></img>
+                    <p>Max Temp:<span class="day1_tempMax"></span></p>
+                    <p>Min Temp:<span class="day1_tempMin"></span></p>
+                </div>
+                <div>
+                    <p class="day2_date"></p>
+                    <img src="images/" alt="weather related icon" class="day2_icon"></img>
+                    <p>Max Temp:<span class="day2_tempMax"></span></p>
+                    <p>Min Temp:<span class="day2_tempMin"></span></p>
+                </div>
+                <div>
+                    <p class="day3_date"></p>
+                    <img src="images/" alt="weather related icon" class="day3_icon"></img>
+                    <p>Max Temp:<span class="day3_tempMax"></span></p>
+                    <p>Min Temp:<span class="day3_tempMin"></span></p>
+                </div>
+            </div>
         </div>
 
     </main>
