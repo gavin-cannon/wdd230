@@ -179,6 +179,16 @@ p {
     border: #46777C solid 1px;
 }
 
+.temple_description {
+    background-color: #EAF4F7;
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: #46777C solid 1px;
+}
+
 
 /* HOME CONTENT END*/
 
@@ -234,6 +244,15 @@ section h2 {
 
 #reservation_main h2 {
     margin-bottom: 30px;
+}
+
+.booking_info {
+    margin-top: 25px;
+    background-color: #EAF4F7;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    border: #46777C solid 1px;
 }
 
 
@@ -348,7 +367,7 @@ div p a {
 }
 
 .services_main .services {
-    background-color: #B4C4D1;
+    background-color: #EAF4F7;
     max-width: fit-content;
     border-radius: 15px;
     padding: 8px;
@@ -357,7 +376,16 @@ div p a {
 }
 
 .amenities {
-    background-color: #B4C4D1;
+    background-color: #EAF4F7;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+.ethos {
+    background-color: #EAF4F7;
     max-width: fit-content;
     border-radius: 15px;
     padding: 8px;
@@ -405,6 +433,15 @@ div p a {
     border: #46777C solid 1px;
 }
 
+.photo {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
 
 /* RECEPTION CSS END*/
 
@@ -412,7 +449,7 @@ div p a {
 /* MISSIONARY CSS */
 
 .missionary_info {
-    background-color: #B4C4D1;
+    background-color: #EAF4F7;
     max-width: fit-content;
     border-radius: 15px;
     padding: 8px;
