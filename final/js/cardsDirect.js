@@ -25,7 +25,7 @@ function buildTempleCards(data) {
     nonUtah.forEach(temple => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let portrait = document.createElement('img');
+        let photo = document.createElement('img');
         let p = document.createElement('p');
         let new_p = document.createElement('p');
         let likebutton = document.createElement('img');
@@ -35,9 +35,9 @@ function buildTempleCards(data) {
         p.innerHTML = `<h3>Phone Number:</h3> ${temple.phone}<br><br> <h3>Address:</h3> ${temple.address}<br><br> <h3>Email:</h3> ${temple.email}<br> <br><h3>Website:</h3> ${temple.website}`;
         new_p.innerHTML = `<h3>Services:</h3> ${temple.services}<br><br> <h3>Session:</h3> ${temple.session}<br> <h3>Ordinances:</h3> ${temple.ordinances}<br> <br> <h3>Closures for 2022:</h3>  ${temple.closure}<br>`
         history_p.innerHTML = `<h3>History:</h3>${temple.history}`;
-        portrait.setAttribute('src', `${temple.imageurl}`);
-        portrait.setAttribute('alt', `${temple.alt}`);
-        portrait.setAttribute('loading', 'lazy');
+        photo.setAttribute('src', `${temple.imageurl}`);
+        photo.setAttribute('alt', `${temple.alt}`);
+        photo.setAttribute('loading', 'lazy');
         likebutton.setAttribute('src', `${temple.likebutton}`);
         likebutton.setAttribute('onclick', 'like_button(this)');
         likebutton.setAttribute('class', `like_btn${class_number}`);
@@ -51,7 +51,7 @@ function buildTempleCards(data) {
 
 
         card.append(h2);
-        card.append(portrait);
+        card.append(photo);
         card.append(p);
         card.append(new_p);
         card.append(history_p);
