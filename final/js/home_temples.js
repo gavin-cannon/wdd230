@@ -18,21 +18,30 @@ async function getTemples() {
 }
 
 function buildTempleCards(data) {
-    let twoTemples = data.temples.filter(twoTemple => twoTemple.order < 3)
+    let twoTemples = data.temples.filter(twoTemple => twoTemple.order < 2)
     twoTemples.forEach(temple => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let portrait = document.createElement('img');
         let p = document.createElement('p');
+        let new_p = document.createElement('p');
+        let likebutton = document.createElement('img');
+        let history_p = document.createElement('p');
+
+
         h2.innerHTML = `${temple.name}`;
-        p.innerHTML = `Phone Number: ${temple.phone}<br> Address: ${temple.address}`;
-        portrait.setAttribute('src', `${temple.imageurl}`)
-        portrait.setAttribute('alt', `Portrait of ${temple.name} ${temple.lastname}`)
-        portrait.setAttribute('loading', 'lazy')
+        p.innerHTML = `<h3>Phone Number:</h3> ${temple.phone}<br><br> `;
+        new_p.innerHTML = `<h3>Services:</h3> ${temple.services}<br><br> <h3>Session:</h3> ${temple.session}<br> <h3>Closures for 2022:</h3>  ${temple.closure}<br>`
+        portrait.setAttribute('src', `${temple.imageurl}`);
+        portrait.setAttribute('alt', `Portrait of ${temple.name} ${temple.lastname}`);
+        portrait.setAttribute('loading', 'lazy');
 
         card.append(h2);
-        card.append(p);
         card.append(portrait);
+        card.append(p);
+        card.append(new_p);
+        card.append(history_p);
+
 
         homecards.append(card);
     })

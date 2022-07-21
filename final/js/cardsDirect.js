@@ -51,10 +51,11 @@ function buildTempleCards(data) {
 
 
         card.append(h2);
+        card.append(portrait);
         card.append(p);
         card.append(new_p);
         card.append(history_p);
-        card.append(portrait);
+
 
 
         card.append(likebutton);
