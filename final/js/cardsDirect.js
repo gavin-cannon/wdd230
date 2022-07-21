@@ -36,7 +36,7 @@ function buildTempleCards(data) {
         new_p.innerHTML = `<h3>Services:</h3> ${temple.services}<br><br> <h3>Session:</h3> ${temple.session}<br> <h3>Ordinances:</h3> ${temple.ordinances}<br> <br> <h3>Closures for 2022:</h3>  ${temple.closure}<br>`
         history_p.innerHTML = `<h3>History:</h3>${temple.history}`;
         portrait.setAttribute('src', `${temple.imageurl}`);
-        portrait.setAttribute('alt', `Portrait of ${temple.name} ${temple.lastname}`);
+        portrait.setAttribute('alt', `${temple.alt}`);
         portrait.setAttribute('loading', 'lazy');
         likebutton.setAttribute('src', `${temple.likebutton}`);
         likebutton.setAttribute('onclick', 'like_button(this)');

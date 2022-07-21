@@ -11,6 +11,7 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
             "order": 1,
             "imageurl": "images/boise.jpeg",
+            "alt": "A picture of the Boise LDS Temple. Its a tall building and made of white rock.",
             "history": "31 March 1982 Announced<br> 18 December 1982 Groundbreaking<br> 25 May 1984 Dedicated<br> 14 February 1987 Rededicated <br>18 November 2012 Rededicated",
             "likebutton": "images/heart.png"
         },
@@ -26,6 +27,7 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
             "order": 2,
             "imageurl": "images/rexburg.jpg",
+            "alt": "A picture of the Rexburg LDS Temple. Its a tall building and made of white rock.",
             "history": "12 December 2003 Announced<br> 30 July 2005 Groundbreaking<br> 10 February 2008 Dedicated",
             "likebutton": "images/heart.png"
         },
@@ -41,6 +43,7 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
             "order": 3,
             "imageurl": "images/logan.jpeg",
+            "alt": "A picture of the Logan LDS Temple. Its a tall building and made of brown rock with two white wooden structures on top.",
             "history": "6 October 1876 Announced<br> 18 May 1877 Groundbreaking<br> 17 May 1884 Dedicated<br> 13 March 1979 Rededicated",
             "likebutton": "images/heart.png"
         },
@@ -56,6 +59,7 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/twin-falls-idaho-temple?lang=eng",
             "order": 4,
             "imageurl": "images/twin_falls.jpg",
+            "alt": "A picture of the Twin Falls LDS Temple. Its a tall building and made of white rock.",
             "history": "2 October 2004 Announced<br> 15 April 2006 Groundbreaking<br> 24 August 2008 Dedicated",
             "likebutton": "images/heart.png"
         }
