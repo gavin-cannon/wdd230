@@ -1,7 +1,10 @@
 /*HEADER CSS*/
 
 header {
+    margin-top: 15px;
     text-align: center;
+    max-width: 1800px;
+    margin: auto;
 }
 
 .logo {
@@ -93,6 +96,9 @@ footer {
     color: white;
     text-align: center;
     padding-bottom: 15px;
+    border-radius: 40px;
+    max-width: 2500px;
+    margin: auto;
 }
 
 
@@ -103,6 +109,11 @@ footer {
 
 
 /* GENERAL SEMANTIC STYLING*/
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
 
 .link_button {
     margin: 15px;
@@ -121,6 +132,7 @@ h4,
 h5,
 h6 {
     font-family: 'Cormorant SC', serif;
+    margin-bottom: 2px;
 }
 
 p {
@@ -146,7 +158,9 @@ p {
     background-color: #EAF4F7;
     text-align: center;
     border-radius: 50px;
+    margin-top: 25px;
     padding-bottom: 30px;
+    border: #46777C solid 1px;
 }
 
 .temple_spotlight {
@@ -161,6 +175,8 @@ p {
     text-align: center;
     border-radius: 50px;
     padding-bottom: 15px;
+    margin-bottom: 25px;
+    border: #46777C solid 1px;
 }
 
 
@@ -179,7 +195,7 @@ section {
 }
 
 section img {
-    max-width: 500px;
+    max-width: 250px;
     box-shadow: rgba(5, 0, 0, 10);
 }
 
@@ -214,6 +230,10 @@ section h2 {
 #reservation_main {
     display: flex;
     flex-direction: column;
+}
+
+#reservation_main h2 {
+    margin-bottom: 30px;
 }
 
 
@@ -408,8 +428,17 @@ div p a {
     text-align: center;
 }
 
+.missionary_main img {
+    max-width: 400px;
+}
+
 .contact {
     align-self: center;
+    max-width: 400px;
+}
+
+.text_area {
+    max-width: 300px;
 }
 
 

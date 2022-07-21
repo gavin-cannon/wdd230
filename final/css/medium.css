@@ -25,4 +25,21 @@
         text-align: center;
     }
     /* TEMPLE CONTENT AREA END*/
+    section img {
+        max-width: 500px;
+        box-shadow: rgba(5, 0, 0, 10);
+    }
+    * {
+        color: red;
+    }
+    .missionary_main img {
+        max-width: 500px;
+    }
+    .contact {
+        align-self: center;
+        max-width: 500px;
+    }
+    .text_area {
+        max-width: 400px;
+    }
 }
