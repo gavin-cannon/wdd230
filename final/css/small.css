@@ -495,3 +495,20 @@ div p a {
 
 
 /* MISSIONARY CSS END */
+
+
+/*Attribution CSS */
+
+.attribution_main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #4a7688;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+    ;
+}

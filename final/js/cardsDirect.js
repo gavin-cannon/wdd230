@@ -41,6 +41,7 @@ function buildTempleCards(data) {
         likebutton.setAttribute('src', `${temple.likebutton}`);
         likebutton.setAttribute('onclick', 'like_button(this)');
         likebutton.setAttribute('class', `like_btn${class_number}`);
+        likebutton.setAttribute('alt', `${likealt}`)
 
         if (Number(localStorage.getItem(`like_btn${class_number}`)) === 0) {
             likebutton.setAttribute('src', 'images/heartred.png');
