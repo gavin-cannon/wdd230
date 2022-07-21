@@ -103,6 +103,16 @@ footer {
 
 /* GENERAL SEMANTIC STYLING*/
 
+.link_button {
+    margin: 15px;
+    background-color: #B4C4D1;
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px;
+    max-width: fit-content;
+    border: #46777C solid 1px;
+}
+
 h1,
 h2,
 h3,
@@ -131,6 +141,26 @@ p {
 
 /* HOME CONTENT AREA*/
 
+.call_to_action {
+    background-color: #EAF4F7;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.temple_spotlight {
+    margin: 25px;
+    background-color: #EAF4F7;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#weather {
+    background-color: #EAF4F7;
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 15px;
+}
+
 
 /* HOME CONTENT END*/
 
@@ -138,7 +168,12 @@ p {
 /* TEMPLE CONTENT AREA*/
 
 section {
+    margin-top: 15px;
+    background-color: #EAF4F7;
+    text-align: center;
+    border-radius: 50px;
     margin-bottom: 50px;
+    border: #46777C solid 1px;
 }
 
 section img {
@@ -156,11 +191,23 @@ section h2 {
     text-align: center;
 }
 
+.like_btn0,
+.like_btn1,
+.like_btn2,
+.like_btn3 {
+    max-width: 40px;
+}
+
 
 /* TEMPLE CONTENT AREA END*/
 
 
 /* RESERVATION PAGE*/
+
+.button_container {
+    display: flex;
+    justify-content: space-around;
+}
 
 #reservation_main {
     display: flex;
@@ -231,11 +278,11 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #59A86A;
+    background-color: #B4C4D1;
     color: black;
     font-weight: 900;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
+    padding: 1rem 1.25rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
@@ -268,3 +315,100 @@ div p a {
 
 
 /* RESERVATION PAGE END*/
+
+
+/* SERVICES PAGE CSS */
+
+.services_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_main .services {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+.amenities {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+
+/* SERVICES CSS END */
+
+
+/* RECEPTION CSS */
+
+.reception_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accomodations {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+.catering {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+.set_up {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+
+/* RECEPTION CSS END*/
+
+
+/* MISSIONARY CSS */
+
+.missionary_info {
+    background-color: #B4C4D1;
+    max-width: fit-content;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: #46777C solid 1px;
+}
+
+.missionary_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    align-self: center;
+}
+
+
+/* MISSIONARY CSS END */
