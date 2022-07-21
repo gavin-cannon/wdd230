@@ -24,7 +24,7 @@ async function apiFetch(apiURL) {
         const response = await fetch(apiURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+
             displayResults(data);
 
 
@@ -32,15 +32,12 @@ async function apiFetch(apiURL) {
             throw Error(await response.text())
         }
 
-    } catch (error) {
-        console.log(error);
-    }
+    } catch (error) {}
 }
 
 function displayResults(weatherData) {
     kelvin = weatherData.current.temp.toFixed(1);
     kel_to_fahr = (kelvin - 273.15) * (9 / 5) + 32;
-    console.log(kel_to_fahr);
     currentTemp.innerHTML = kel_to_fahr.toFixed(2);
     humidity_number = weatherData.current.humidity;
     humidity.innerHTML = `${humidity_number}%`;
