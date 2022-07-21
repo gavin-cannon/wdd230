@@ -101,6 +101,10 @@ footer {
     margin: auto;
 }
 
+footer a {
+    padding: 5px;
+}
+
 
 /* FOOTER END */
 
